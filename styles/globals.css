@@ -1,0 +1,45 @@
+/* Tipografía global */
+body {
+  font-family: 'Inter', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f8f8f8;
+  color: #222;
+}
+
+/* Mejora visual básica para texto */
+h1, h2, h3 {
+  font-weight: 600;
+  line-height: 1.2;
+  margin-bottom: 1rem;
+}
+
+p {
+  line-height: 1.6;
+  margin-bottom: 1.25rem;
+}
+
+/* Botón genérico */
+button, .button {
+  background-color: #6200ea;
+  color: white;
+  padding: 0.75rem 1.5rem;
+  border: none;
+  border-radius: 8px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+button:hover, .button:hover {
+  background-color: #3700b3;
+}
+/* 🌐 Estilo global para imágenes */
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+html {
+  scroll-behavior: smooth;
+}
